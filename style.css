@@ -64,3 +64,57 @@ body{
     border:none;
     border-radius:24px;
 }
+
+
+/* responsive design part start from here */
+
+@media screen and (max-width:800px ){
+    body{
+      background-color:chartreuse;
+    }
+
+    .container{
+        margin:20px 240px;
+        height: 550px;
+        width:300px;
+        
+    }
+    .sub-container{
+        margin-top:60px;
+    }
+
+    #email{
+        margin-top:20px;
+        width:300px;
+    }
+    #password{
+        margin-top:20px;
+        width:300px;
+       
+    }
+
+    .sign1{
+        margin-top:40px;
+        
+    }
+    .sign2{
+        margin-top:40px;
+        margin-left:138px;
+        
+    }
+    .button-class{
+        margin-top:20px;
+        margin-left:140px;
+    }
+}
+
+@media screen and (max-width:400px ){
+    body{
+        background-color:aqua;
+    }
+    .container{
+        margin:120px auto;
+        height:400px;
+        width:350px;
+    }
+}

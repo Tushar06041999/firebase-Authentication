@@ -25,7 +25,7 @@
       var mail=document.getElementById("email");
       var pass=document.getElementById("password");
 
-      const promise=auth.createUserWithEmailAndPassword(mail.value,pass.value);
+      const promise=auth.CreateUserWithEmailAndPassword(mail.value,pass.value);
       promise.catch(e=> alert(e.meassage));
       alert("Sign UP Succefull");
   }
